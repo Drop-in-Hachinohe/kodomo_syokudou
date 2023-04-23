@@ -1,0 +1,38 @@
+.section {
+  width: 100%;
+  padding: 70px 5%;
+  @media (min-width: 640px) {
+    padding: 60px 10%;
+  }
+  @media (min-width: 1280px) {
+    width: 1024px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+  }
+}
+
+.section_title {
+  font-family: 'kei', sans-serif;
+  background-image: url('/images/bg_wood_dark.jpg');
+  background-size: 100px;
+  padding: 8px 12px;
+  color: white;
+  display: inline-block;
+  margin: 0 auto;
+}
+.bg_wood_light {
+  background: url('/images/bg_wood_light.png') repeat 100px;
+}
+.color-pink {
+    color: var(--primary-pink);
+}
+.color-green {
+    color: var(--primary-green);
+}
+.color-blue {
+    color: var(--primary-blue);
+}
+.color-brown {
+  color: var(--primary-brown);
+}

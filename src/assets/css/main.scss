@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section {
+  width: 100%;
+  padding: 70px 5%;
+  @media (min-width: 640px) {
+    padding: 100px 10%;
+  }
+}
+
+a {
+  cursor: pointer;
+}
+@media (hover: hover) {
+  a:hover {
+    opacity: .8;
+  }
+}
