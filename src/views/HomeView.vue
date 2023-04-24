@@ -83,7 +83,7 @@
               ランドセルはおいてからきてください。
             </p>
           </div>
-          <div class="note_item note_child guardian mt-16 md:mt-0">
+          <div class="note_item note_child guardian mt-16 sm:mt-0">
             <header class="text-center font-bold text-xl">
               保護者の方へ
             </header>
