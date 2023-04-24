@@ -21,8 +21,8 @@
   </div>
   <main>
     <section class="bg_wood_light">
-      <div class="section">
-        <div class="main_message p-8 md:p-16 pt-20 md:pt-28">
+      <div id="about" class="section">
+        <div class="main_message p-8 pt-0 md:p-16 md:pt-28">
           <img src="/images/top_ribbon.png" class="main_message_ribbon" />
           <header class="font-kei text-3xl">
             さめ駅からすぐのカフェ Airにて、みんなが笑顔になる子ども食堂が始まります！
@@ -33,7 +33,7 @@
           <p class="color-pink font-kei text-4xl text-center mt-4">
             毎週月曜日 16:30~19:30
           </p>
-          <p class="text-lg main_message_desc mt-8 p-8">
+          <p class="text-lg main_message_desc mt-8 pt-8">
             鮫のみなさんと子供たちの笑顔とおなかいっぱいのお手伝いをしたいと思っています。
             子供はもちろん、おとなのみなさんの居場所になれたらうれしいです。
           </p>
@@ -69,7 +69,7 @@
       </div>
     </section>
     <section class="bg_wood_light note">
-      <div class="section">
+      <div id="wish" class="section">
         <div class="text-center text-2xl">
           <h2 class="section_title">子ども食堂からのお願い</h2>
         </div>
@@ -221,11 +221,15 @@
     border-radius: 10px;
     position: relative;
     &_ribbon {
-      width: 60%;
-      position: absolute;
-      top: -60px;
+      width: 100%;
       left: 50%;
       transform: translate(-50%, 0);
+      top: -30px;
+      @media (min-width: 640px) {
+        width: 60%;
+        position: absolute;
+        top: -60px;
+      }
     }
     &_desc {
       border-top: solid 1px var(--primary-pink);
