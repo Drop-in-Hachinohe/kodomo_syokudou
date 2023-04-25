@@ -56,7 +56,7 @@
           <p class="text-lg font-bold mt-4">連絡先</p>
           <p class="text-base">090-3962-4521</p>
         </div>
-        <iframe class="information_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2117.186302271447!2d141.5537772114633!3d40.53175109919847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9b53ea8547a5f7%3A0xde5dacc1cce13f76!2z44CSMDMxLTA4NDEg6Z2S5qOu55yM5YWr5oi45biC6a6r55S65oyB6LaK5rKi77yU4oiS77yR77yV!5e0!3m2!1sja!2sjp!4v1682218817091!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe class="information_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2117.186302271447!2d141.5537772114633!3d40.53175109919847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9b53ea8547a5f7%3A0xde5dacc1cce13f76!2z44CSMDMxLTA4NDEg6Z2S5qOu55yM5YWr5oi45biC6a6r55S65oyB6LaK5rKi77yU4oiS77yR77yV!5e0!3m2!1sja!2sjp!4v1682218817091!5m2!1sja!2sjp" width="600" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div id="price" class="price_wrapper mt-16">
         <div class="price p-12">
