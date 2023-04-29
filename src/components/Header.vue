@@ -24,7 +24,7 @@ window.addEventListener('resize', setWidth);
 </script>
 
 <template>
-  <nav v-if="scrollY > 100" class="navigation navigation_pc">
+  <nav v-if="scrollY > 100" class="navigation navigation_pc font-kei">
     <ul class="navigation_inner">
       <a v-for="item in navItems" :key="item.id" :href="item.link" class="navigation_item">
         <li class="font-bold">{{ item.name }}</li>
@@ -33,7 +33,7 @@ window.addEventListener('resize', setWidth);
   </nav>
  
   <img @click="openSpMenu" src="/images/menu.png" class="navigation_sp_img" />
-  <nav v-if="spMenuShow" class="navigation navigation_sp">
+  <nav v-if="spMenuShow" class="navigation navigation_sp font-kei">
     <ul>
       <a v-for="item in navItems"
         :key="item.id"
@@ -73,6 +73,7 @@ window.addEventListener('resize', setWidth);
     color: white;
   }
   &_item {
+    padding: 0 12px;
     &:not(:last-child) {
       border-right: solid 1px white;
     }
