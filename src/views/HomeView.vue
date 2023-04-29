@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import GoogleForm from '@/components/GoogleForm.vue';
+
 </script>
 
 <template>
@@ -126,7 +128,8 @@
         ご予約はお電話(090-3962-4521)<br>
         または下記の予約フォームからお願いいたします
       </p>
-      <p></p>
+      <!-- Google Form 埋め込み -->
+      <GoogleForm />
     </section>  
   </main>
 </template>
