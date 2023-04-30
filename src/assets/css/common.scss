@@ -2,12 +2,12 @@
   width: 100%;
   padding: 70px 5%;
   @media (min-width: 640px) {
-    padding: 60px 10%;
+    padding: 80px 10%;
   }
   @media (min-width: 1280px) {
     width: 1024px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     margin: 0 auto;
   }
 }
@@ -21,8 +21,22 @@
   display: inline-block;
   margin: 0 auto;
 }
+.section_kei {
+  position: absolute;
+  
+  height: 100px;
+  width: auto;
+  object-fit: cover;
+  &.up {
+    top: -50px;
+  }
+  &.down {
+    bottom: -50px;
+  }
+}
 .bg_wood_light {
   background: url('/images/bg_wood_light.png') repeat 100px;
+  position: relative;
 }
 .color-pink {
     color: var(--primary-pink);
@@ -36,3 +50,13 @@
 .color-brown {
   color: var(--primary-brown);
 }
+.marker-pink {
+  background: linear-gradient(transparent 50%, var(--primary-pink-20) 52%);
+}
+.marker-green {
+  background: linear-gradient(transparent 50%, var(--primary-green-20) 52%);
+}
+.marker-blue  {
+  background: linear-gradient(transparent 50%, var(--primary-blue-20 ) 52%);
+}
+
