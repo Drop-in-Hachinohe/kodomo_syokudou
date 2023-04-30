@@ -41,6 +41,7 @@ import GoogleForm from '@/components/GoogleForm.vue';
           </p>
         </div>
       </div>
+      <img src="/images/onigiri_kei.png" class="section_kei down" />
     </section>
     <section class="section">
       <div class="text-center text-2xl">
@@ -71,42 +72,48 @@ import GoogleForm from '@/components/GoogleForm.vue';
       </div>
     </section>
     <section class="bg_wood_light note">
+      <img src="/images/onigiri_kei.png" class="section_kei up" />
       <div id="wish" class="section">
         <div class="text-center text-2xl">
           <h2 class="section_title">子ども食堂からのお願い</h2>
         </div>
         <div class="note_list mt-16">
           <div class="note_item note_child children">
-            <header class="text-center font-bold text-xl">
-              こどもたちへ
+            <img src="/images/tape_01.png" class="note_item_deco up" />
+            <header class="text-center text-xl">
+              <span class="marker-pink font-bold">こどもたちへ</span>
             </header>
             <p class="text-lg  mt-6">
               かならず おうちの人につたえてからきてネ!<br>
               ランドセルはおいてからきてください。
             </p>
+            <img src="/images/tape_01.png" class="note_item_deco down" />
           </div>
           <div class="note_item note_child guardian mt-16 sm:mt-0">
-            <header class="text-center font-bold text-xl">
-              保護者の方へ
+            <img src="/images/tape_02.png" class="note_item_deco up" />
+            <header class="text-center text-xl">
+              <span class="marker-green font-bold">保護者の方へ</span>
             </header>
             <p class="text-lg mt-6">
               子どもだけで来るお子さんは18時にお家に帰宅できるようにします。<br>
               18時すぎる場合はお迎えをお願いします。
             </p>
+            <img src="/images/tape_02.png" class="note_item_deco down" />
           </div>
         </div>
         <div class="note_item all mt-16">
-          <header class="text-center font-bold text-2xl">
-            みなさんへ
+          <img src="/images/tape_03.png" class="note_item_deco up all" />
+          <header class="text-center text-2xl">
+            <span class="marker-blue font-bold">みなさんへ</span>
           </header>
-          <p class="text-xl mt-6 font-bold">
-            たいちょうのわるい人はこんどきてください
+          <p class="text-xl mt-6">
+            <span class="marker-pink font-bold">たいちょうのわるい人はこんどきてください</span>
           </p>
           <p class="text-sm">
             （ねつ・せき・おなかがいたい など）
           </p>
-          <p class="text-xl mt-6 font-bold">
-            たべもののアレルギーのある方
+          <p class="text-xl mt-6">
+            <span class="marker-pink font-bold">たべもののアレルギーのある方</span>
           </p>
           <p class="text-base">
             食堂では特別な対応をしていません。<br>
@@ -116,6 +123,7 @@ import GoogleForm from '@/components/GoogleForm.vue';
             混雑時は子供が優先になります。大人の方はお待たせすることがございます。
             ご理解お願いいたします。
           </p>
+          <img src="/images/tape_03.png" class="note_item_deco down all" />
         </div>
       </div>
     </section>
@@ -124,7 +132,7 @@ import GoogleForm from '@/components/GoogleForm.vue';
       <div class="text-center text-2xl">
         <h2 id="reserve" class="section_title">ご予約</h2>
       </div>
-      <p class="text-lg font-bold mt-16">
+      <p class="text-lg font-bold mt-16 text-center">
         ご予約はお電話(090-3962-4521)<br>
         または下記の予約フォームからお願いいたします
       </p>
@@ -180,7 +188,7 @@ import GoogleForm from '@/components/GoogleForm.vue';
         right: -40%;
       }
     }
-     &_3 {
+    &_3 {
       animation: 3s fuwafuwa infinite;
       @media (min-width: 640px) {
         bottom: 0;
@@ -302,6 +310,29 @@ import GoogleForm from '@/components/GoogleForm.vue';
       transform: rotate(5deg);
       transform: rotate(3deg) translate(-30px, -45px);
       z-index: -1;
+    }
+    &_deco {
+      position: absolute;
+      width: 30%;
+      transform: rotate(-15deg);
+      filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, .2));
+      &.all {
+        width: 15%;
+        &.up {
+          left: -2%;
+        }
+        &.down {
+          right: -2%;
+        }
+      }
+      &.up {
+        top: 0;
+        left: -5%;
+      }
+      &.down {
+        bottom: 0;
+        right: -5%;
+      }
     }
     &.children {
       &::before {
