@@ -24,7 +24,7 @@ import GoogleForm from '@/components/GoogleForm.vue';
   <main>
     <section id="about" class="pt-16 bg_wood_light">
       <div class="section">
-        <div class="main_message p-8 pt-0 md:p-16 md:pt-28">
+        <div class="main_message p-8 pt-14 md:p-16 md:pt-28">
           <img src="/images/top_ribbon.png" class="main_message_ribbon" />
           <header class="font-kei text-3xl">
             さめ駅からすぐのカフェ Airにて、みんなが笑顔になる子ども食堂が始まります！
