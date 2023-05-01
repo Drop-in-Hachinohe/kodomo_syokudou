@@ -22,8 +22,8 @@ import GoogleForm from '@/components/GoogleForm.vue';
     </div>
   </div>
   <main>
-    <section class="bg_wood_light">
-      <div id="about" class="section">
+    <section id="about" class="pt-16 bg_wood_light">
+      <div class="section">
         <div class="main_message p-8 pt-0 md:p-16 md:pt-28">
           <img src="/images/top_ribbon.png" class="main_message_ribbon" />
           <header class="font-kei text-3xl">
@@ -43,13 +43,13 @@ import GoogleForm from '@/components/GoogleForm.vue';
       </div>
       <img src="/images/onigiri_kei.png" class="section_kei down" />
     </section>
-    <section class="section">
+    <section id="open" class="section">
       <div class="text-center text-2xl">
         <h2 class="section_title">開催情報</h2>
       </div>
-      <p id="open" class="color-brown font-kei text-3xl text-center mt-8">毎週月曜日 16:30~19:30</p>
+      <p class="color-brown font-kei text-3xl text-center mt-8">毎週月曜日 16:30~19:30</p>
       <p class="color-pink font-kei text-2xl text-center mt-2">オープン！</p>
-      <div id="information" class="information mt-16">
+      <div id="information" class="information pt-16">
         <div class="information_desc">
           <p class="color-green font-kei text-base">駅からすぐそばのランチが人気のお店</p>
           <p class="color-green font-kei text-3xl">カフェ air</p>
@@ -61,7 +61,7 @@ import GoogleForm from '@/components/GoogleForm.vue';
         </div>
         <iframe class="information_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2117.186302271447!2d141.5537772114633!3d40.53175109919847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9b53ea8547a5f7%3A0xde5dacc1cce13f76!2z44CSMDMxLTA4NDEg6Z2S5qOu55yM5YWr5oi45biC6a6r55S65oyB6LaK5rKi77yU4oiS77yR77yV!5e0!3m2!1sja!2sjp!4v1682218817091!5m2!1sja!2sjp" width="600" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-      <div id="price" class="price_wrapper mt-16">
+      <div id="price" class="price_wrapper pt-16">
         <div class="price p-12">
           <ul class="price_inner">
             <li class="price_item font-kei text-3xl p-2">小中学生 :	無料</li>
@@ -71,9 +71,9 @@ import GoogleForm from '@/components/GoogleForm.vue';
         </div>
       </div>
     </section>
-    <section class="bg_wood_light note">
+    <section id="wish" class="bg_wood_light note">
       <img src="/images/onigiri_kei.png" class="section_kei up" />
-      <div id="wish" class="section">
+      <div class="section">
         <div class="text-center text-2xl">
           <h2 class="section_title">子ども食堂からのお願い</h2>
         </div>
@@ -128,9 +128,9 @@ import GoogleForm from '@/components/GoogleForm.vue';
       </div>
     </section>
     <!-- 予約 -->
-    <section class="section">
+    <section id="reserve" class="section">
       <div class="text-center text-2xl">
-        <h2 id="reserve" class="section_title">ご予約</h2>
+        <h2 class="section_title">ご予約</h2>
       </div>
       <p class="text-lg font-bold mt-16 text-center">
         ご予約はお電話(090-3962-4521)<br>
@@ -167,12 +167,16 @@ import GoogleForm from '@/components/GoogleForm.vue';
       margin-bottom: 0;
     }
   }
-   &_menu {
+  &_menu {
     display: inline-block;
     width: 50%;
     @media (min-width: 640px) {
       width: 45%;
       position: absolute;
+    }
+    &:hover img {
+      animation: gurun .3s;
+      transform: scale(1.2);
     }
     &_1 {
       animation: 3s fuwafuwa2 infinite;
@@ -224,6 +228,15 @@ import GoogleForm from '@/components/GoogleForm.vue';
   }
   100% {
     transform: translateY(-2px);
+  }
+}
+
+@keyframes gurun {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
   }
 }
 .main {
