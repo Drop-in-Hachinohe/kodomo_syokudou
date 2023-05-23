@@ -25,6 +25,23 @@ import GoogleForm from '@/components/GoogleForm.vue';
     <section id="about" class="pt-16 bg_wood_light">
       <div class="section">
         <div class="main_message p-8 pt-14 md:p-16 md:pt-28">
+          <img src="/images/news_ribbon.png" class="main_message_ribbon" alt="お知らせ" />
+          <p class="font-kei text-4xl mb-8 text-center">2023年6月4日 (日)</p>
+          <p class="font-kei text-3xl mb-4 text-center">
+            <span class="text-4xl">吉野家</span>の<span class="color-orange text-4xl">牛丼</span>
+          </p>
+          <p class="font-kei text-4xl mb-4 text-center">100コ</p>
+          <p class="font-kei text-3xl text-center">
+            <span class="color-pink text-4xl">無料</span>配布します！
+          </p>
+          <p class="text-lg main_message_desc mt-8 pt-8">
+            ひとり1コとさせて頂きます。<br />
+            時間は6月1日 (木) にホームページにてお知らせいたします。
+          </p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="main_message p-8 pt-14 md:p-16 md:pt-28">
           <img src="/images/top_ribbon.png" class="main_message_ribbon" />
           <header class="font-kei text-3xl">
             さめ駅からすぐのカフェ Airにて、みんなが笑顔になる子ども食堂が始まります！
