@@ -136,9 +136,22 @@ import GoogleForm from '@/components/GoogleForm.vue';
             食堂では特別な対応をしていません。<br>
             本人または保護者が気をつけてお食事おねがいします。
           </p>
-          <p class="color-blue text-base mt-8 font-bold">
-            混雑時は子供が優先になります。大人の方はお待たせすることがございます。
-            ご理解お願いいたします。
+          <p class="color-blue text-base mt-8 mb-8 font-bold">
+            混雑時は係スタッフの指示に従ってください。<br />
+            また、その際は子供が優先になります。大人の方はお待たせすることがございます。<br />
+            ご理解のほど、よろしくお願いいたします。
+          </p>
+          <header class="text-center text-2xl">
+            <span class="marker-blue font-bold">お車でご来店される方へ</span>
+          </header>
+          <p class="text-xl mt-6">
+            <span class="marker-pink font-bold">路上駐車は行わないでください</span>
+          </p>
+          <p class="text-base">
+            駐車場は<a href="https://goo.gl/maps/GqDXQPoWVHABCRQF9?coh=178572&entry=tt">元青森銀行鮫派出所</a>の敷地が利用可能です。
+          </p>
+          <p class="text-xl mt-6">
+            <span class="marker-pink font-bold">ご来店の際は必ず横断歩道を渡ってきてください。</span>
           </p>
           <img src="/images/tape_03.png" class="note_item_deco down all" />
         </div>
