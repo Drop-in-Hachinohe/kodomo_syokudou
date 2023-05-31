@@ -73,6 +73,15 @@ import GoogleForm from '@/components/GoogleForm.vue';
           <p class="text-lg font-bold mt-4">住所</p>
           <p class="text-base">青森県八戸市鮫町持越沢4-15</p>
           <p class="text-base"> (嶋田病院向かい)</p>
+          <p class="text-lg font-bold mt-4">駐車場</p>
+          <p class="text-base">
+            <a
+              href="https://goo.gl/maps/GqDXQPoWVHABCRQF9?coh=178572&entry=tt"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="color-blue hover:underline"
+            >元青森銀行鮫派出所</a>
+          </p>
           <p class="text-lg font-bold mt-4">連絡先</p>
           <p class="text-base">090-3962-4521</p>
         </div>
@@ -148,7 +157,7 @@ import GoogleForm from '@/components/GoogleForm.vue';
             <span class="marker-pink font-bold">路上駐車は行わないでください</span>
           </p>
           <p class="text-base">
-            駐車場は<a href="https://goo.gl/maps/GqDXQPoWVHABCRQF9?coh=178572&entry=tt">元青森銀行鮫派出所</a>の敷地が利用可能です。
+            駐車場は元青森銀行鮫派出所の敷地が利用可能です。
           </p>
           <p class="text-xl mt-6">
             <span class="marker-pink font-bold">ご来店の際は必ず横断歩道を渡ってきてください。</span>
