@@ -26,7 +26,7 @@ import GoogleForm from '@/components/GoogleForm.vue';
       <div class="section">
         <div class="main_message p-8 pt-14 md:p-16 md:pt-28">
           <img src="/images/news_ribbon.png" class="main_message_ribbon" alt="お知らせ" />
-          <p class="font-kei text-4xl mb-8 text-center">2023年6月4日 (日)</p>
+          <p class="font-kei text-4xl mb-8 text-center">2023年6月4日 (日) 11:00 ~</p>
           <p class="font-kei text-3xl mb-4 text-center">
             <span class="text-4xl">吉野家</span>の<span class="color-orange text-4xl">牛丼</span>
           </p>
@@ -35,8 +35,8 @@ import GoogleForm from '@/components/GoogleForm.vue';
             <span class="color-pink text-4xl">無料</span>配布します！
           </p>
           <p class="text-lg main_message_desc mt-8 pt-8">
-            ひとり1コとさせて頂きます。<br />
-            時間は6月1日 (木) にホームページにてお知らせいたします。
+            先着100名様に吉野家の牛丼を無料でお配りいたします。<br />
+            お一人につき1コとさせていただきます。
           </p>
         </div>
       </div>
