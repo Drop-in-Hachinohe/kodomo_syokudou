@@ -38,6 +38,11 @@ import GoogleForm from '@/components/GoogleForm.vue';
             先着100名様に吉野家の牛丼を無料でお配りいたします。<br />
             お一人につき1コとさせていただきます。
           </p>
+          <p class="text-lg font-bold mt-4">特典</p>
+          <p class="text-base">
+            食堂内でご飲食の方にはお味噌と駄菓子類をご用意してお待ちしております。
+            是非お越しください！
+          </p>
         </div>
       </div>
       <div class="section">
