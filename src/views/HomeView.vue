@@ -23,7 +23,7 @@ import GoogleForm from '@/components/GoogleForm.vue';
   </div>
   <main>
     <section id="about" class="pt-16 bg_wood_light">
-      <div class="section">
+      <!-- <div class="section">
         <div class="main_message p-8 pt-14 md:p-16 md:pt-28">
           <img src="/images/news_ribbon.png" class="main_message_ribbon" alt="お知らせ" />
           <p class="font-kei text-4xl mb-8 text-center">2023年6月4日 (日) 11:00 ~</p>
@@ -44,7 +44,7 @@ import GoogleForm from '@/components/GoogleForm.vue';
             是非お越しください！
           </p>
         </div>
-      </div>
+      </div> -->
       <div class="section">
         <div class="main_message p-8 pt-14 md:p-16 md:pt-28">
           <img src="/images/top_ribbon.png" class="main_message_ribbon" />
