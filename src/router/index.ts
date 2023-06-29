@@ -9,6 +9,17 @@ const router = createRouter({
       name: 'home',
       component: HomeView
     },
+    {
+      path: '/galleries',
+      name: 'galleries',
+      children: [
+        {
+          path: '/galleries/:id',
+          component: () => import('../views/galleries/_id.vue'),
+          props: true,
+        }
+      ],
+    },
   ]
 })
 
