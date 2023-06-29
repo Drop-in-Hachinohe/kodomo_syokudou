@@ -10,6 +10,10 @@ const router = useRouter()
 
 const baseUrl = ref(import.meta.env.VITE_BASE_URL)
 
+const linkTo = computed((): (itemLink: string) => string => {
+  return (itemLink: string): string => `${baseUrl.value}${itemLink}`
+})
+
 const windowWidth = ref(0);
 const scrollY = ref(0);
 const spMenuShow = ref(false);
@@ -51,7 +55,7 @@ const showPcNav = computed((): boolean => {
       <router-link v-if="!isDisplayingTop" :to="{ name: 'home' }" class="navigation_item">
         <li class="font-bold">TOPへ</li>
       </router-link>
-      <a v-for="item in navItems" :key="item.id" :href="`${baseUrl}${item.link}`" class="navigation_item">
+      <a v-for="item in navItems" :key="item.id" :href="linkTo(item.link)" class="navigation_item">
         <li class="font-bold">{{ item.name }}</li>
       </a>
     </ul>
@@ -65,7 +69,7 @@ const showPcNav = computed((): boolean => {
       </a>
       <a v-for="item in navItems"
         :key="item.id"
-        :href="item.link"
+        :href="linkTo(item.link)"
         class="navigation_sp_item"
         @click.native="closeSpMenu">
         <li class="font-bold">{{ item.name }}</li>
