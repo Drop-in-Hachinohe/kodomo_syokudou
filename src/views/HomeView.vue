@@ -1,6 +1,30 @@
 <script setup lang="ts">
+import { createClient } from 'microcms-js-sdk';
+import type { GalleriesResponse, GalleryResponse } from '@/types';
+import Gallery from '@/models/gallery';
+import { ref } from 'vue';
+
+import GalleriesCarousel from '@/components/GalleriesCarousel.vue';
 import GoogleForm from '@/components/GoogleForm.vue';
 
+const client = createClient({
+  serviceDomain: import.meta.env.VITE_MICRO_CMS_SERVICE_DOMAIN,
+  apiKey: import.meta.env.VITE_MICRO_CMS_API_KEY,
+});
+
+const galleries = ref<Gallery[]>([])
+
+// ギャラリー一覧 (id, title, thumbnail) を取得
+client
+  .get<GalleriesResponse>({
+    endpoint: 'galleries',
+    queries: {
+      fields: 'id,title,thumbnail',
+    },
+  })
+  .then((res: GalleriesResponse) => {
+    galleries.value = res.contents.map((gallery: GalleryResponse) => Gallery.fromResponse(gallery))
+  });
 </script>
 
 <template>
@@ -63,6 +87,15 @@ import GoogleForm from '@/components/GoogleForm.vue';
           </p>
         </div>
       </div>
+
+      <!-- ギャラリー -->
+      <div class="section">
+        <div class="main_message p-8 pt-14 md:p-16 md:pt-28">
+          <img src="/images/galleries_ribbon.png" class="main_message_ribbon" />
+          <GalleriesCarousel :galleries="galleries" />
+        </div>
+      </div>
+
       <img src="/images/onigiri_kei.png" class="section_kei down" />
     </section>
     <section id="open" class="section">
