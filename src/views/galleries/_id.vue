@@ -5,6 +5,12 @@ import type { GalleryResponse } from '@/types';
 import Gallery from '@/models/gallery';
 import {useRoute} from "vue-router";
 
+interface Props {
+  id: string
+}
+
+const props = defineProps<Props>()
+
 const client = createClient({
   serviceDomain: import.meta.env.VITE_MICRO_CMS_SERVICE_DOMAIN,
   apiKey: import.meta.env.VITE_MICRO_CMS_API_KEY,
@@ -18,7 +24,7 @@ const gallery = ref<Gallery>(Gallery.dummy())
 client
   .get<GalleryResponse>({
     endpoint: 'galleries',
-    contentId,
+    contentId: props.id,
   })
   .then((res: GalleryResponse) => gallery.value = res)
 
