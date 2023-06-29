@@ -1,8 +1,15 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { computed, nextTick, onMounted, ref } from 'vue';
+import { useRoute, useRouter } from 'vue-router';
 defineProps<{
   navItems: { id: number; name: string; link: string; }[]
 }>()
+
+const route = useRoute()
+const router = useRouter()
+
+const baseUrl = ref(import.meta.env.VITE_BASE_URL)
+
 const windowWidth = ref(0);
 const scrollY = ref(0);
 const spMenuShow = ref(false);
@@ -18,15 +25,33 @@ const closeSpMenu = () => {
 const openSpMenu = () => {
   spMenuShow.value = true;
 }
+
+const handleGoTop = () => {
+  router.push({ name: 'home' })
+  closeSpMenu()
+}
+
 window.addEventListener('scroll', setScrollY);
 window.addEventListener('load', setWidth);
 window.addEventListener('resize', setWidth);
+
+const isDisplayingTop = computed((): boolean => {
+  return route.name === 'home'
+})
+
+const showPcNav = computed((): boolean => {
+  if (!isDisplayingTop.value) return true
+  return scrollY.value > 100
+})
 </script>
 
 <template>
-  <nav v-if="scrollY > 100" class="navigation navigation_pc font-kei">
+  <nav v-if="showPcNav" class="navigation navigation_pc font-kei">
     <ul class="navigation_inner">
-      <a v-for="item in navItems" :key="item.id" :href="item.link" class="navigation_item">
+      <router-link v-if="!isDisplayingTop" :to="{ name: 'home' }" class="navigation_item">
+        <li class="font-bold">TOPへ</li>
+      </router-link>
+      <a v-for="item in navItems" :key="item.id" :href="`${baseUrl}${item.link}`" class="navigation_item">
         <li class="font-bold">{{ item.name }}</li>
       </a>
     </ul>
@@ -35,6 +60,9 @@ window.addEventListener('resize', setWidth);
   <img @click="openSpMenu" src="/images/menu.png" class="navigation_sp_img" />
   <nav v-if="spMenuShow" class="navigation navigation_sp font-kei">
     <ul>
+      <a v-if="!isDisplayingTop" @click.native="handleGoTop" class="navigation_sp_item">
+        <li class="font-bold">TOPへ</li>
+      </a>
       <a v-for="item in navItems"
         :key="item.id"
         :href="item.link"
