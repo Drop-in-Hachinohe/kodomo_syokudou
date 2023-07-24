@@ -47,28 +47,27 @@ client
   </div>
   <main>
     <section id="about" class="pt-16 bg_wood_light">
-      <!-- <div class="section">
+      <div class="section">
         <div class="main_message p-8 pt-14 md:p-16 md:pt-28">
           <img src="/images/news_ribbon.png" class="main_message_ribbon" alt="お知らせ" />
-          <p class="font-kei text-4xl mb-8 text-center">2023年6月4日 (日) 11:00 ~</p>
+          <p class="font-kei text-4xl mb-8 text-center">2023年7月24日 (月)</p>
           <p class="font-kei text-3xl mb-4 text-center">
-            <span class="text-4xl">吉野家</span>の<span class="color-orange text-4xl">牛丼</span>
+            <span class="text-4xl">お休みいたします🙏</span>
           </p>
-          <p class="font-kei text-4xl mb-4 text-center">100コ</p>
+          <!-- <p class="font-kei text-4xl mb-4 text-center">100コ</p>
           <p class="font-kei text-3xl text-center">
             <span class="color-pink text-4xl">無料</span>配布します！
-          </p>
+          </p> -->
           <p class="text-lg main_message_desc mt-8 pt-8">
-            先着100名様に吉野家の牛丼を無料でお配りいたします。<br />
-            お一人につき1コとさせていただきます。
+            7月22日の縁日の振り替えで本日の子ども食堂はお休みいたします。
           </p>
-          <p class="text-lg font-bold mt-4">特典</p>
+          <!-- <p class="text-lg font-bold mt-4">特典</p>
           <p class="text-base">
             食堂内でご飲食の方にはお味噌と駄菓子類をご用意してお待ちしております。
             是非お越しください！
-          </p>
+          </p> -->
         </div>
-      </div> -->
+      </div>
       <div class="section">
         <div class="main_message p-8 pt-14 md:p-16 md:pt-28">
           <img src="/images/top_ribbon.png" class="main_message_ribbon" />
