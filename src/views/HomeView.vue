@@ -47,27 +47,28 @@ client
   </div>
   <main>
     <section id="about" class="pt-16 bg_wood_light">
-      <!-- <div class="section">
+      <div class="section">
         <div class="main_message p-8 pt-14 md:p-16 md:pt-28">
           <img src="/images/news_ribbon.png" class="main_message_ribbon" alt="お知らせ" />
-          <p class="font-kei text-4xl mb-8 text-center">2023年7月24日 (月)</p>
+          <p class="font-kei text-4xl mb-8 text-center">2023年8月14日 (月)</p>
           <p class="font-kei text-3xl mb-4 text-center">
             <span class="text-4xl">お休みいたします🙏</span>
           </p>
-          <p class="font-kei text-4xl mb-4 text-center">100コ</p>
+          <!-- <p class="font-kei text-4xl mb-4 text-center">100コ</p>
           <p class="font-kei text-3xl text-center">
             <span class="color-pink text-4xl">無料</span>配布します！
-          </p>
+          </p> -->
           <p class="text-lg main_message_desc mt-8 pt-8">
-            7月22日の縁日の振り替えで本日の子ども食堂はお休みいたします。
+            8月14日 (月) はお盆期間中の為、子ども食堂はお休みいたします。<br />
+            申し訳ありません。次回8月21日 (月) にお越しください。
           </p>
-          <p class="text-lg font-bold mt-4">特典</p>
+          <!-- <p class="text-lg font-bold mt-4">特典</p>
           <p class="text-base">
             食堂内でご飲食の方にはお味噌と駄菓子類をご用意してお待ちしております。
             是非お越しください！
-          </p>
+          </p> -->
         </div>
-      </div> -->
+      </div>
       <div class="section">
         <div class="main_message p-8 pt-14 md:p-16 md:pt-28">
           <img src="/images/top_ribbon.png" class="main_message_ribbon" />
