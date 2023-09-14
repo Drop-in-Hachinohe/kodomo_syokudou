@@ -50,7 +50,7 @@ client
       <div class="section">
         <div class="main_message p-8 pt-14 md:p-16 md:pt-28">
           <img src="/images/news_ribbon.png" class="main_message_ribbon" alt="お知らせ" />
-          <p class="font-kei text-4xl mb-8 text-center">2023年8月14日 (月)</p>
+          <p class="font-kei text-4xl mb-8 text-center">2023年10月9日 (月)</p>
           <p class="font-kei text-3xl mb-4 text-center">
             <span class="text-4xl">お休みいたします🙏</span>
           </p>
@@ -59,8 +59,8 @@ client
             <span class="color-pink text-4xl">無料</span>配布します！
           </p> -->
           <p class="text-lg main_message_desc mt-8 pt-8">
-            8月14日 (月) はお盆期間中の為、子ども食堂はお休みいたします。<br />
-            申し訳ありません。次回8月21日 (月) にお越しください。
+            10月9日 (月) は前日の鮫フェスイベント参加の為、子ども食堂はお休みいたします。<br />
+            次回10月16日 (月) にお越しください。
           </p>
           <!-- <p class="text-lg font-bold mt-4">特典</p>
           <p class="text-base">
