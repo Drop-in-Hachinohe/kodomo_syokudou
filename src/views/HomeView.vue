@@ -216,11 +216,13 @@ client
         <h2 class="section_title">ご予約</h2>
       </div>
       <p class="text-lg font-bold mt-16 text-center">
-        ご予約はお電話(090-3962-4521)<br>
-        または下記の予約フォームからお願いいたします
+        <!-- ご予約はお電話(090-3962-4521)<br>
+        または下記の予約フォームからお願いいたします -->
+        現在、ご予約を停止しております。<br />
+        ご理解のほどよろしくお願いいたします。
       </p>
       <!-- Google Form 埋め込み -->
-      <GoogleForm />
+      <!-- <GoogleForm /> -->
     </section>  
   </main>
 </template>
