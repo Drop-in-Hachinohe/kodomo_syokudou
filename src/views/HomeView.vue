@@ -50,6 +50,17 @@ client
       <div class="section">
         <div class="main_message p-8 pt-14 md:p-16 md:pt-28">
           <img src="/images/news_ribbon.png" class="main_message_ribbon" alt="お知らせ" />
+          <p class="font-kei text-4xl mb-8 text-center">2023年10月23日 (月) <span class="font-kei text-3xl mb-4 text-center">より</span></p>
+          <p class="font-kei text-3xl mb-4 text-center">
+            <span class="text-4xl color-pink">『チーム鮫子ども食堂』駄菓子屋を開催します！</span>
+          </p>
+          <p class="text-lg main_message_desc mt-8 pt-8"></p>
+          <img src="/images/dagashi-chirashi.png" alt="">
+        </div>
+      </div>
+      <div class="section">
+        <div class="main_message p-8 pt-14 md:p-16 md:pt-28">
+          <img src="/images/news_ribbon.png" class="main_message_ribbon" alt="お知らせ" />
           <p class="font-kei text-4xl mb-8 text-center">2023年10月16日 (月)</p>
           <p class="font-kei text-3xl mb-4 text-center">
             <span class="text-4xl">お休みいたします🙏</span>
