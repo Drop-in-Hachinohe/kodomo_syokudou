@@ -50,12 +50,12 @@ client
       <div class="section">
         <div class="main_message p-8 pt-14 md:p-16 md:pt-28">
           <img src="/images/news_ribbon.png" class="main_message_ribbon" alt="お知らせ" />
-          <p class="font-kei text-4xl mb-8 text-center">2024年1月24日 (水) <span class="font-kei text-3xl mb-4 text-center">より</span></p>
+          <p class="font-kei text-4xl mb-8 text-center">2024年1月17日 (水) <span class="font-kei text-3xl mb-4 text-center">より</span></p>
           <p class="font-kei text-3xl mb-4 text-center">
             <span class="text-4xl color-pink">営業曜日の変更のお知らせ。</span>
           </p>
           <p class="text-lg main_message_desc mt-8 pt-8">
-            2024年1月24日 (水) より、営業曜日を毎週月曜日から毎週水曜日に変更になります。<br />
+            2024年1月17日 (水) より、営業曜日を毎週月曜日から毎週水曜日に変更になります。<br />
             開始、終了時間は 15:30 - 18:00 で変更ありません。<br />
             今後とも、「チーム鮫子ども食堂」を何卒よろしくお願いいたします。
           </p>
