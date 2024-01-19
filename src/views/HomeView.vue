@@ -50,6 +50,20 @@ client
       <div class="section">
         <div class="main_message p-8 pt-14 md:p-16 md:pt-28">
           <img src="/images/news_ribbon.png" class="main_message_ribbon" alt="お知らせ" />
+          <p class="font-kei text-4xl mb-8 text-center">2024年1月17日 (水) <span class="font-kei text-3xl mb-4 text-center">より</span></p>
+          <p class="font-kei text-3xl mb-4 text-center">
+            <span class="text-4xl color-pink">営業曜日の変更のお知らせ。</span>
+          </p>
+          <p class="text-lg main_message_desc mt-8 pt-8">
+            2024年1月17日 (水) より、営業曜日を毎週月曜日から毎週水曜日に変更になります。<br />
+            開始、終了時間は 15:30 - 18:00 で変更ありません。<br />
+            今後とも、「チーム鮫子ども食堂」を何卒よろしくお願いいたします。
+          </p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="main_message p-8 pt-14 md:p-16 md:pt-28">
+          <img src="/images/news_ribbon.png" class="main_message_ribbon" alt="お知らせ" />
           <p class="font-kei text-4xl mb-8 text-center">2023年10月23日 (月) <span class="font-kei text-3xl mb-4 text-center">より</span></p>
           <p class="font-kei text-3xl mb-4 text-center">
             <span class="text-4xl color-pink">『チーム鮫子ども食堂』駄菓子屋を開催します！</span>
@@ -58,26 +72,17 @@ client
           <img src="/images/dagashi-chirashi.png" alt="">
         </div>
       </div>
-      <div class="section">
+      <!-- <div class="section">
         <div class="main_message p-8 pt-14 md:p-16 md:pt-28">
           <img src="/images/news_ribbon.png" class="main_message_ribbon" alt="お知らせ" />
           <p class="font-kei text-4xl mb-8 text-center">2023年10月16日 (月)</p>
           <p class="font-kei text-3xl mb-4 text-center">
             <span class="text-4xl">お休みいたします🙏</span>
           </p>
-          <!-- <p class="font-kei text-4xl mb-4 text-center">100コ</p>
-          <p class="font-kei text-3xl text-center">
-            <span class="color-pink text-4xl">無料</span>配布します！
-          </p> -->
           <p class="text-lg main_message_desc mt-8 pt-8">
             10月16日 (月) は子ども食堂駄菓子屋を始める為の準備により、子ども食堂はお休みいたします。<br />
             次回10月23日 (月) にお越しください。
           </p>
-          <!-- <p class="text-lg font-bold mt-4">特典</p>
-          <p class="text-base">
-            食堂内でご飲食の方にはお味噌と駄菓子類をご用意してお待ちしております。
-            是非お越しください！
-          </p> -->
           <img src="" alt="">
         </div>
       </div>
@@ -98,7 +103,7 @@ client
             子供はもちろん、おとなのみなさんの居場所になれたらうれしいです。
           </p>
         </div>
-      </div>
+      </div> -->
 
       <!-- ギャラリー -->
       <div class="section">
@@ -114,7 +119,7 @@ client
       <div class="text-center text-2xl">
         <h2 class="section_title">開催情報</h2>
       </div>
-      <p class="color-brown font-kei text-3xl text-center mt-8">毎週月曜日 16:30~19:30</p>
+      <p class="color-brown font-kei text-3xl text-center mt-8">毎週水曜日 15:30~18:00</p>
       <p class="color-pink font-kei text-2xl text-center mt-2">オープン！</p>
       <div id="information" class="information pt-16">
         <div class="information_desc">
