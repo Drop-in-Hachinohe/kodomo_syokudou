@@ -176,7 +176,7 @@ client
               <span class="marker-green font-bold">保護者の方へ</span>
             </header>
             <p class="text-lg mt-6">
-              子どもだけで来るお子さんは18時にお家に帰宅できるようにします。<br>
+              子どもだけで来るお子さんは17時にお家に帰宅できるようにします。<br>
               18時すぎる場合はお迎えをお願いします。
             </p>
             <img src="/images/tape_02.png" class="note_item_deco down" />
@@ -200,7 +200,7 @@ client
             食堂では特別な対応をしていません。<br>
             本人または保護者が気をつけてお食事おねがいします。
           </p>
-          <p class="color-blue text-base mt-8 mb-8 font-bold">
+          <!-- <p class="color-blue text-base mt-8 mb-8 font-bold">
             【17:00の予約について】<br />
             現在、17:00のご予約はピーク時の混雑を避けるため、受け付けておりません。<br />
           </p>
@@ -210,7 +210,7 @@ client
             大人の方のみのご予約の場合、17:30以降のご予約であればスムーズにお席にご案内することができます。<br />
             また、混雑時は係スタッフの指示に従ってくださいますよう、よろしくお願いいたします。<br />
             ご理解のほど、何卒よろしくお願いいたします。
-          </p>
+          </p> -->
           <header class="text-center text-2xl">
             <span class="marker-blue font-bold">お車でご来店される方へ</span>
           </header>
