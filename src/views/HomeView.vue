@@ -177,7 +177,7 @@ client
             </header>
             <p class="text-lg mt-6">
               子どもだけで来るお子さんは17時にお家に帰宅できるようにします。<br>
-              18時すぎる場合はお迎えをお願いします。
+              17時すぎる場合はお迎えをお願いします。
             </p>
             <img src="/images/tape_02.png" class="note_item_deco down" />
           </div>
